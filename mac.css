@@ -1,0 +1,65 @@
+.container {
+    margin-top: 20px;
+}
+.memory p, .storage p, .choose-option p {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-left: rgba(0, 0, 0, 0.8);
+    border-right: rgba(0, 0, 0, 0.8);
+    margin: 0px 4px;
+    margin-bottom: 5px;
+    padding: 3px 8px;
+    font-size: 0.9rem;
+}
+.memory, .storage, .choose-option {
+    margin-top: 30px;
+}
+h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+td{
+    font-weight: 800;
+    font-size: 1rem;
+    border-bottom: 2px solid black;
+    /* padding-right: 10px 20px; */
+}
+
+tr {
+    border-bottom: 2px solid black;
+    /* padding: 10px 0; */
+}
+#first-memory:hover {
+    font-size: 15px;
+    cursor: pointer;
+}
+#second-memory:hover {
+    font-size: 15px;
+    cursor: pointer;
+}
+#first-storage:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+#second-storage:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+#third-storage:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+#free-delivery:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+#deliver-quick:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+.coupn{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
